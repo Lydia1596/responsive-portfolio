@@ -78,7 +78,6 @@ p {
 
 .homepage-image {
   background-color: var(--secondary-color);
-  padding-top: 50px;
 }
 
 .homepage-link {
@@ -113,10 +112,6 @@ p {
 
 @media (min-width: 1200px) {
   .homepage-text {
-    background-color: var(--secondary-color);
-    padding-top: 100px;
-  }
-  .homepage-image {
     background-color: var(--secondary-color);
     padding-top: 100px;
   }
