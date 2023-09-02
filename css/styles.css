@@ -106,7 +106,7 @@ p {
   border-radius: 4px;
 }
 
-@meta (min-width: 1200px) {
+@media (min-width: 1200px) {
   .homepage-text {
     background-color: var(--secondary-color);
     padding-top: 100px;
