@@ -86,11 +86,6 @@ p {
   display: block;
 }
 
-.homepage-text {
-  background-color: var(--secondary-color);
-  padding-top: 100px;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -109,4 +104,11 @@ p {
   max-width: 100%;
   max-height: auto;
   border-radius: 4px;
+}
+
+@meta (min-width: 1200px) {
+  .homepage-text {
+    background-color: var(--secondary-color);
+    padding-top: 100px;
+  }
 }
